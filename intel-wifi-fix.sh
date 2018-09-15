@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# For Ubuntu 18.04 file should be copied to /etc/init.d/ and set following properties: 
+# -rwxr-xr-x 1 root root      intel-wifi-fix.sh
+
 # configuration variables:
 TOTAL_ALLOWED_RUNS=5
 TIME_BETWEEN_REMOVE_COMMANDS=5s
