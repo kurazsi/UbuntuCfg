@@ -1,0 +1,12 @@
+[Unit]
+Description=Runs a script that should properly enable the intel wifi driver
+After=network.target
+Before=graphical.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/etc/init.d/intel-wifi-fix.sh
+
+[Install]
+WantedBy=basic.target graphical.target multi-user.target
