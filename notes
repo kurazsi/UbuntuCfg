@@ -1,0 +1,1 @@
+echo y|i2cset -f 2 0x2E 0x40 0x7F 2>/dev/null >/dev/null
